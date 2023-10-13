@@ -1,0 +1,33 @@
+{
+    "name": "STEM-BUS-2023",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "OLED12864_I2C": "github:hiwonder/hiwonderoled#42a5428ceba91c4bcf2a73b8b7ee601000f98be5",
+        "microphone": "*",
+        "startbit": "github:hiwonder/startbit#0d4df5c81a6cf4d1d28aa5512153d09a297d97d5",
+        "wondercam": "github:hiwonder/wondercam#155af01d4c345078417b01e453987570fb3c3a98",
+        "hiwonder_asr": "github:Hiwonder/Hiwonder_asr#a054bc978d19ec47eed73b63d6d909b85d3ca653"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.17",
+        "tag": "v3.0.17",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/414403fca5144b77b5c4944174a1a4f2144af5fe",
+        "target": "6.0.19",
+        "pxt": "6.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
